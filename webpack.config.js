@@ -7,6 +7,14 @@ module.exports = {
     resolve: {
         root: __dirname,
         alias: {
+            Main: 'app/component/Main.jsx',
+            Nav: 'app/component/Nav.jsx',
+            Weather: 'app/component/Weather.jsx',
+            About: 'app/component/About.jsx',
+            Example: 'app/component/Example.jsx',
+            Form: 'app/component/Form.jsx',
+            Message: 'app/component/Message.jsx',
+            openWeatherMap: 'app/api/openWeatherMap.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },
@@ -22,6 +30,7 @@ module.exports = {
     
             }
         ]
-    }
+    },
+    devtool: 'cheap-module-eval-map'
     
 };
