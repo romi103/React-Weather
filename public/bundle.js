@@ -1676,7 +1676,7 @@
 /* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar About = function About(props) {\n    return React.createElement(\n        'h3',\n        null,\n        'About Compoent'\n    );\n};\n\nmodule.exports = About;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/component/About.jsx\n// module id = 272\n// module chunks = 0\n//# sourceURL=webpack:///./app/component/About.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar About = function About(props) {\n    return React.createElement(\n        'div',\n        null,\n        React.createElement(\n            'h3',\n            null,\n            'About'\n        ),\n        React.createElement(\n            'p',\n            null,\n            'Welcome to about page!'\n        )\n    );\n};\n\nmodule.exports = About;\n\n//////////////////\n// WEBPACK FOOTER\n// ./app/component/About.jsx\n// module id = 272\n// module chunks = 0\n//# sourceURL=webpack:///./app/component/About.jsx?");
 
 /***/ },
 /* 273 */
